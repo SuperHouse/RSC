@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -2045,35 +2045,35 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="J1" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
-<part name="J3" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
-<part name="J4" library="freetronics-original" deviceset="M10" device="0.1"/>
-<part name="J2" library="freetronics" deviceset="M08" device="" value="POWER"/>
-<part name="J5" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
-<part name="J6" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
-<part name="J8" library="freetronics-original" deviceset="M10" device="0.1"/>
-<part name="J9" library="freetronics" deviceset="M08" device="" value="POWER"/>
-<part name="J10" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
-<part name="J11" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
-<part name="J12" library="freetronics-original" deviceset="M10" device="0.1"/>
-<part name="J13" library="freetronics" deviceset="M08" device="" value="POWER"/>
-<part name="J14" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
-<part name="J15" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
-<part name="J16" library="freetronics-original" deviceset="M10" device="0.1"/>
-<part name="J17" library="freetronics" deviceset="M08" device="" value="POWER"/>
-<part name="J7" library="freetronics" deviceset="M06" device="SIP" value="External"/>
-<part name="J18" library="freetronics" deviceset="M06" device="SIP" value="External"/>
+<part name="H2" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
+<part name="H4" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
+<part name="H3" library="freetronics-original" deviceset="M10" device="0.1"/>
+<part name="H1" library="freetronics" deviceset="M08" device="" value="POWER"/>
+<part name="H6" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
+<part name="H8" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
+<part name="H7" library="freetronics-original" deviceset="M10" device="0.1"/>
+<part name="H5" library="freetronics" deviceset="M08" device="" value="POWER"/>
+<part name="H10" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
+<part name="H12" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
+<part name="H11" library="freetronics-original" deviceset="M10" device="0.1"/>
+<part name="H9" library="freetronics" deviceset="M08" device="" value="POWER"/>
+<part name="H14" library="freetronics" deviceset="M06" device="SIP" value="Analog"/>
+<part name="H16" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
+<part name="H15" library="freetronics-original" deviceset="M10" device="0.1"/>
+<part name="H13" library="freetronics" deviceset="M08" device="" value="POWER"/>
+<part name="H17" library="freetronics" deviceset="M06" device="SIP" value="External"/>
+<part name="H18" library="freetronics" deviceset="M06" device="SIP" value="External"/>
 <part name="GND1" library="freetronics" deviceset="GND" device=""/>
 <part name="GND2" library="freetronics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J19" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
+<part name="H19" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J20" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
-<part name="J21" library="Connector-new" deviceset="GROVE-CONNECTOR-SMD" device="'90D'" value="SMD Grove;4P-2.0-90D;320110032"/>
+<part name="H20" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
+<part name="H21" library="Connector-new" deviceset="GROVE-CONNECTOR-SMD" device="'90D'" value="SMD Grove;4P-2.0-90D;320110032"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J22" library="Connector-new" deviceset="GROVE-CONNECTOR-SMD" device="'90D'" value="SMD Grove;4P-2.0-90D;320110032"/>
+<part name="H22" library="Connector-new" deviceset="GROVE-CONNECTOR-SMD" device="'90D'" value="SMD Grove;4P-2.0-90D;320110032"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP3" library="freetronics-master-v1.1" deviceset="M02" device="3.5MM" value="DCIN"/>
+<part name="H23" library="freetronics-master-v1.1" deviceset="M02" device="3.5MM" value="DCIN"/>
 <part name="GND5" library="freetronics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -2112,75 +2112,75 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="43.18" y1="38.1" x2="43.18" y2="5.08" width="0.4064" layer="97" style="longdash"/>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="22.86" y="111.76" smashed="yes" rot="MR180">
+<instance part="H2" gate="G$1" x="22.86" y="111.76" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="17.78" y="121.92" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="17.78" y="100.838" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="J3" gate="G$1" x="50.8" y="111.76" smashed="yes" rot="MR0">
+<instance part="H4" gate="G$1" x="50.8" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="52.832" y="99.06" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="55.626" y="125.476" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="J4" gate="G$1" x="55.88" y="152.4" smashed="yes" rot="MR0">
+<instance part="H3" gate="G$1" x="55.88" y="152.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="55.88" y="129.54" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="55.88" y="161.29" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J2" gate="G$1" x="22.86" y="139.7" smashed="yes" rot="MR180">
+<instance part="H1" gate="G$1" x="22.86" y="139.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="20.828" y="152.4" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="18.034" y="125.984" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="J5" gate="G$1" x="83.82" y="111.76" smashed="yes" rot="MR180">
+<instance part="H6" gate="G$1" x="83.82" y="111.76" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="78.74" y="121.92" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="78.74" y="100.838" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="J6" gate="G$1" x="111.76" y="111.76" smashed="yes" rot="MR0">
+<instance part="H8" gate="G$1" x="111.76" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="113.792" y="99.06" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="116.586" y="125.476" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="J8" gate="G$1" x="116.84" y="152.4" smashed="yes" rot="MR0">
+<instance part="H7" gate="G$1" x="116.84" y="152.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="116.84" y="129.54" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="116.84" y="161.29" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J9" gate="G$1" x="83.82" y="139.7" smashed="yes" rot="MR180">
+<instance part="H5" gate="G$1" x="83.82" y="139.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="81.788" y="152.4" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="78.994" y="125.984" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="J10" gate="G$1" x="142.24" y="111.76" smashed="yes" rot="MR180">
+<instance part="H10" gate="G$1" x="142.24" y="111.76" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="137.16" y="121.92" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="137.16" y="100.838" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="J11" gate="G$1" x="170.18" y="111.76" smashed="yes" rot="MR0">
+<instance part="H12" gate="G$1" x="170.18" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="172.212" y="99.06" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="175.006" y="125.476" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="J12" gate="G$1" x="175.26" y="152.4" smashed="yes" rot="MR0">
+<instance part="H11" gate="G$1" x="175.26" y="152.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="175.26" y="129.54" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="175.26" y="161.29" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J13" gate="G$1" x="142.24" y="139.7" smashed="yes" rot="MR180">
+<instance part="H9" gate="G$1" x="142.24" y="139.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="140.208" y="152.4" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="137.414" y="125.984" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="J14" gate="G$1" x="200.66" y="111.76" smashed="yes" rot="MR180">
+<instance part="H14" gate="G$1" x="200.66" y="111.76" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="195.58" y="121.92" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="195.58" y="100.838" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="J15" gate="G$1" x="228.6" y="111.76" smashed="yes" rot="MR0">
+<instance part="H16" gate="G$1" x="228.6" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="230.632" y="99.06" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="233.426" y="125.476" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="J16" gate="G$1" x="233.68" y="152.4" smashed="yes" rot="MR0">
+<instance part="H15" gate="G$1" x="233.68" y="152.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="233.68" y="129.54" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="233.68" y="161.29" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J17" gate="G$1" x="200.66" y="139.7" smashed="yes" rot="MR180">
+<instance part="H13" gate="G$1" x="200.66" y="139.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="198.628" y="152.4" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="195.834" y="125.984" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="J7" gate="G$1" x="15.24" y="63.5" smashed="yes" rot="MR180">
+<instance part="H17" gate="G$1" x="15.24" y="63.5" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="10.16" y="73.66" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="10.16" y="52.578" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="J18" gate="G$1" x="66.04" y="63.5" smashed="yes" rot="R180">
+<instance part="H18" gate="G$1" x="66.04" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="71.12" y="73.66" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="71.12" y="52.578" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -2193,32 +2193,32 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND18" gate="1" x="109.22" y="53.34" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="109.22" y="53.086" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="J19" gate="G$1" x="99.06" y="63.5" smashed="yes" rot="MR180">
+<instance part="H19" gate="G$1" x="99.06" y="63.5" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="93.98" y="68.834" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="93.98" y="55.626" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="GND3" gate="1" x="132.08" y="53.34" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="132.08" y="53.086" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="J20" gate="G$1" x="142.24" y="60.96" smashed="yes" rot="MR0">
+<instance part="H20" gate="G$1" x="142.24" y="60.96" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="147.32" y="55.626" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="147.32" y="68.834" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="J21" gate="G$1" x="180.34" y="62.23" smashed="yes" rot="R180">
+<instance part="H21" gate="G$1" x="180.34" y="62.23" smashed="yes" rot="R180">
 <attribute name="NAME" x="182.88" y="55.88" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="173.99" y="48.26" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="180.34" y="48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="180.34" y="48.006" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="J22" gate="G$1" x="223.52" y="62.23" smashed="yes">
+<instance part="H22" gate="G$1" x="223.52" y="62.23" smashed="yes">
 <attribute name="NAME" x="220.98" y="68.58" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="229.87" y="76.2" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
 <instance part="GND6" gate="1" x="223.52" y="48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="223.52" y="48.006" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="JP3" gate="G$1" x="17.78" y="20.32" smashed="yes" rot="MR180">
+<instance part="H23" gate="G$1" x="17.78" y="20.32" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="15.24" y="25.4" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="15.24" y="14.478" size="1.778" layer="95" rot="MR180"/>
 </instance>
@@ -2233,65 +2233,65 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="27.94" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <label x="30.48" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="6"/>
+<pinref part="H1" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
 <label x="30.48" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="7"/>
+<pinref part="H1" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <label x="43.18" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="7"/>
+<pinref part="H3" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
 <label x="91.44" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="6"/>
+<pinref part="H5" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 <label x="91.44" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="7"/>
+<pinref part="H5" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
 <label x="104.14" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J8" gate="G$1" pin="7"/>
+<pinref part="H7" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 <label x="149.86" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="J13" gate="G$1" pin="6"/>
+<pinref part="H9" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 <label x="149.86" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="J13" gate="G$1" pin="7"/>
+<pinref part="H9" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
 <label x="162.56" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J12" gate="G$1" pin="7"/>
+<pinref part="H11" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="134.62" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
 <label x="208.28" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="J17" gate="G$1" pin="6"/>
+<pinref part="H13" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="132.08" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
 <label x="208.28" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="J17" gate="G$1" pin="7"/>
+<pinref part="H13" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="149.86" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
 <label x="220.98" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J16" gate="G$1" pin="7"/>
+<pinref part="H15" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="6"/>
+<pinref part="H17" gate="G$1" pin="6"/>
 <wire x1="20.32" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <label x="27.94" y="55.88" size="1.27" layer="95" xref="yes"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -2300,7 +2300,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="22.86" y="55.88"/>
 </segment>
 <segment>
-<pinref part="J18" gate="G$1" pin="6"/>
+<pinref part="H18" gate="G$1" pin="6"/>
 <wire x1="60.96" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
 <label x="53.34" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -2312,23 +2312,23 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="106.68" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="J19" gate="G$1" pin="1"/>
+<pinref part="H19" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="58.42" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="J20" gate="G$1" pin="1"/>
+<pinref part="H20" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J21" gate="G$1" pin="SS2"/>
+<pinref part="H21" gate="G$1" pin="SS2"/>
 <wire x1="180.34" y1="69.85" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J21" gate="G$1" pin="SS1"/>
+<pinref part="H21" gate="G$1" pin="SS1"/>
 <wire x1="180.34" y1="53.34" x2="180.34" y2="54.61" width="0.1524" layer="91"/>
-<pinref part="J21" gate="G$1" pin="4"/>
+<pinref part="H21" gate="G$1" pin="4"/>
 <wire x1="185.42" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="66.04" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
@@ -2341,14 +2341,14 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J22" gate="G$1" pin="SS2"/>
+<pinref part="H22" gate="G$1" pin="SS2"/>
 <wire x1="223.52" y1="54.61" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="50.8" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="50.8" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J22" gate="G$1" pin="SS1"/>
+<pinref part="H22" gate="G$1" pin="SS1"/>
 <wire x1="223.52" y1="71.12" x2="223.52" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="J22" gate="G$1" pin="4"/>
+<pinref part="H22" gate="G$1" pin="4"/>
 <wire x1="218.44" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="58.42" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
@@ -2360,7 +2360,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <wire x1="27.94" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="H23" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 </segment>
@@ -2369,223 +2369,223 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="27.94" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
 <label x="30.48" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="8"/>
+<pinref part="H1" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
 <label x="91.44" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="J9" gate="G$1" pin="8"/>
+<pinref part="H5" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
 <label x="149.86" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="J13" gate="G$1" pin="8"/>
+<pinref part="H9" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
 <label x="208.28" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="J17" gate="G$1" pin="8"/>
+<pinref part="H13" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="5"/>
+<pinref part="H17" gate="G$1" pin="5"/>
 <wire x1="20.32" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
 <label x="27.94" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J18" gate="G$1" pin="5"/>
+<pinref part="H18" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 <label x="53.34" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="H23" gate="G$1" pin="1"/>
 <label x="27.94" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IOREF" class="0">
 <segment>
 <wire x1="30.48" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="H1" gate="G$1" pin="2"/>
 <label x="30.48" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="J9" gate="G$1" pin="2"/>
+<pinref part="H5" gate="G$1" pin="2"/>
 <label x="91.44" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="144.78" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="2"/>
+<pinref part="H9" gate="G$1" pin="2"/>
 <label x="149.86" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="4"/>
+<pinref part="H17" gate="G$1" pin="4"/>
 <wire x1="20.32" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 <label x="27.94" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J18" gate="G$1" pin="4"/>
+<pinref part="H18" gate="G$1" pin="4"/>
 <wire x1="60.96" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <label x="53.34" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J17" gate="G$1" pin="2"/>
+<pinref part="H13" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 <label x="208.28" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J21" gate="G$1" pin="3"/>
+<pinref part="H21" gate="G$1" pin="3"/>
 <wire x1="185.42" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
 <label x="193.04" y="63.5" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J22" gate="G$1" pin="3"/>
+<pinref part="H22" gate="G$1" pin="3"/>
 <wire x1="218.44" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
 <label x="210.82" y="60.96" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="J19" gate="G$1" pin="2"/>
+<pinref part="H19" gate="G$1" pin="2"/>
 <label x="111.76" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J20" gate="G$1" pin="2"/>
+<pinref part="H20" gate="G$1" pin="2"/>
 <label x="129.54" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <wire x1="45.72" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="9"/>
+<pinref part="H3" gate="G$1" pin="9"/>
 <label x="43.18" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="9"/>
+<pinref part="H7" gate="G$1" pin="9"/>
 <label x="104.14" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="165.1" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J12" gate="G$1" pin="9"/>
+<pinref part="H11" gate="G$1" pin="9"/>
 <label x="162.56" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="154.94" x2="220.98" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J16" gate="G$1" pin="9"/>
+<pinref part="H15" gate="G$1" pin="9"/>
 <label x="220.98" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="2"/>
+<pinref part="H17" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 <label x="27.94" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J18" gate="G$1" pin="2"/>
+<pinref part="H18" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 <label x="53.34" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 <label x="111.76" y="60.96" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="J19" gate="G$1" pin="3"/>
+<pinref part="H19" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <label x="129.54" y="63.5" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="J20" gate="G$1" pin="3"/>
+<pinref part="H20" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="J21" gate="G$1" pin="2"/>
+<pinref part="H21" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 <label x="193.04" y="60.96" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J22" gate="G$1" pin="2"/>
+<pinref part="H22" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="63.5" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
 <label x="210.82" y="63.5" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
-<pinref part="J9" gate="G$1" pin="3"/>
+<pinref part="H5" gate="G$1" pin="3"/>
 <wire x1="88.9" y1="142.24" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
 <label x="91.44" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="1"/>
+<pinref part="H17" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="27.94" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="H1" gate="G$1" pin="3"/>
 <wire x1="27.94" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
 <label x="30.48" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J13" gate="G$1" pin="3"/>
+<pinref part="H9" gate="G$1" pin="3"/>
 <wire x1="147.32" y1="142.24" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
 <label x="149.86" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J17" gate="G$1" pin="3"/>
+<pinref part="H13" gate="G$1" pin="3"/>
 <wire x1="205.74" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
 <label x="208.28" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J18" gate="G$1" pin="1"/>
+<pinref part="H18" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="53.34" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="J18" gate="G$1" pin="3"/>
+<pinref part="H18" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <label x="53.34" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="10"/>
+<pinref part="H3" gate="G$1" pin="10"/>
 <label x="43.18" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="10"/>
+<pinref part="H7" gate="G$1" pin="10"/>
 <label x="104.14" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="157.48" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J12" gate="G$1" pin="10"/>
+<pinref part="H11" gate="G$1" pin="10"/>
 <label x="162.56" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J16" gate="G$1" pin="10"/>
+<pinref part="H15" gate="G$1" pin="10"/>
 <label x="220.98" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="3"/>
+<pinref part="H17" gate="G$1" pin="3"/>
 <wire x1="20.32" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="27.94" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <label x="111.76" y="58.42" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="J19" gate="G$1" pin="4"/>
+<pinref part="H19" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="129.54" y="66.04" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="J20" gate="G$1" pin="4"/>
+<pinref part="H20" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<pinref part="J21" gate="G$1" pin="1"/>
+<pinref part="H21" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
 <label x="193.04" y="58.42" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J22" gate="G$1" pin="1"/>
+<pinref part="H22" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="66.04" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
 <label x="210.82" y="66.04" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
